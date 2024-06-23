@@ -81,10 +81,10 @@ const Body = () => {
     <LogosGrid />
     </section>
 
-    <section id="section-equipo" className="container mx-auto">
+    <section id="section-equipo" className="container mx-auto pb-16">
       <Equipo />
     </section>
-
+    {/* 
     <section className="grid grid-cols-1 md:grid-cols-2 gap-8 my-4 ">
     <div className="p-6 flex items-center justify-center">
       <div className="text-white">
@@ -104,8 +104,8 @@ const Body = () => {
     <div className="p-6">
       
     </div>
-</section>
-
+    </section>//
+    */}
     </section>
   </>
   

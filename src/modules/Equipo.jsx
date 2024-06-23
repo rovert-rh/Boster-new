@@ -52,7 +52,7 @@ const Equipo = () => {
   };
 
   return (
-    <div className="border-purple-600 border-solid rounded-2xl border-4 my-16 backdrop-blur-sm bg-white/5 ">
+    <div className="border-purple-600 border-solid rounded-2xl border-4 mt-4 backdrop-blur-sm bg-white/5 ">
       <h1 className="text-5xl font-bold text-center my-8 text-white">Nuestro Equipo</h1>
       <div className="flex justify-center p-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">

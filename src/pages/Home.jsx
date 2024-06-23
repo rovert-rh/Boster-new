@@ -4,6 +4,7 @@ import React from 'react'
 import Header from '../components/Header/Header';
 import Hero from "../components/Hero/Hero"
 import Body from '../components/Body/Body';
+import Footer from '../components/Footer/Footer';
 
 export const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ export const HomePage = () => {
       <Header />
       <Hero />
       <Body />
+      <Footer />
     </>
   )
 
