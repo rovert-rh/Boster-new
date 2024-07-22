@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from "../Header/Header";
-import imagenDerecha from '../../assets/ia.png';
+import imagenDerecha from "../../assets/IA.png";
 
 const Hero = () => {
 
