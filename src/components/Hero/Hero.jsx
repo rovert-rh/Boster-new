@@ -8,7 +8,7 @@ const Hero = () => {
     return (
         <div className="bg-center h-screen relative">
             {/* Contenedor principal */}
-            <div className="bg-cover bg-no-repeat lg:bg-transparent z-1 top-0 left-0 w-screen h-full flex items-center justify-center md:justify-between bg-[url('../src/assets/home.png')] bg-center">
+            <div className="bg-cover bg-no-repeat lg:bg-transparent z-1 top-0 left-0 w-screen h-full flex items-center justify-center md:justify-between bg-[url('/src/assets/home.png')] bg-center">
                 {/* Fondo con desenfoque */}
                 <div className="absolute top-0 left-0 w-full h-full backdrop-blur-sm backdrop-filter bg-blur-md">
                     {/* Contenido del fondo */}
