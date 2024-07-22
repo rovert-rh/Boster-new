@@ -9,7 +9,7 @@ const Hero = () => {
     return (
         <div className="bg-center h-screen relative">
             {/* Contenedor principal */}
-            <div className="bg-cover bg-no-repeat lg:bg-transparent z-1 top-0 left-0 w-screen h-full flex items-center justify-center md:justify-between bg-center" style={{ backgroundImage: `url('/home.png')` }}>
+            <div className="bg-cover bg-no-repeat lg:bg-transparent z-1 top-0 left-0 w-screen h-full flex items-center justify-center md:justify-between bg-center bg-[url('/home.png')]">
                 {/* Fondo con desenfoque */}
                 <div className="absolute top-0 left-0 w-full h-full backdrop-blur-sm backdrop-filter bg-blur-md">
                     {/* Contenido del fondo */}
